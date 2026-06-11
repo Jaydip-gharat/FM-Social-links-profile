@@ -14,16 +14,16 @@
 * {
     padding: 0;
     margin: 0;
-    color: var(--White);
 }
 body {
     display: flex;
-    min-width: 90rem; /* 1440px */
-    min-height: 60rem; /* 960px */
+min-height: 100vh;
     align-items: center;
     justify-content: center;
     background-color: var(--Grey-900);
     font-family: 'Inter', sans-serif;
+        color: var(--White);
+
 }
 .profile-card {
     display: flex;
@@ -41,7 +41,7 @@ body {
     margin-top: 2.438rem;
 }
 .content {
-    min-height: 19rem;
+    /* min-height: 19rem; */
     min-height: 7.875rem;
     margin: 0.875rem 0;
     text-align: center;
